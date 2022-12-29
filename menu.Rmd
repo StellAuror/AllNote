@@ -1,0 +1,31 @@
+---
+title: "The Path"
+author: Michał Krawczuk
+date: December 29, 2022
+output:
+  revealjs::revealjs_presentation:
+    incremental: true
+    transition: slide
+    theme: dark
+    highlight: breezedark
+    center: true
+    self_contained: false
+    reveal_plugins: ["menu", "zoom", "notes"]
+    reveal_options:
+      menu:
+        side: left
+---
+
+# Navigation
+
+For more efficient navigation, consider using one of the page content exploration aids below.
+
+-   'f' enable fullscreen mode
+
+-   'o' enable overview mode
+
+-   'b' enable pause mode with a black screen hiding slide content
+
+-   '?' enable help mode to show keyboard shortcut cheatsheet
+
+
