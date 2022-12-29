@@ -1,6 +1,5 @@
 ---
 title: "Real-time theming with bslib and thematic"
-runtime: shiny
 output: 
   html_document:
     code_folding: show
@@ -34,24 +33,22 @@ When running this document with [`{thematic}`](https://rstudio.github.io/themati
 ```{r, message = FALSE}
 library(ggplot2)
 
-renderPlot({
   ggplot(mpg, aes(displ, hwy)) +
     geom_point() + geom_smooth()
-})
 ```
 
 ### lattice
 
 ```{r}
-renderPlot({
+
   lattice::show.settings()
-})
+
 ```
 
 ### base
 
 ```{r}
-renderPlot({
+
   plot(pressure, col = thematic::thematic_get_option("accent"))
-})
+
 ```
